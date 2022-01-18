@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+    margin: auto;
+    width: 320px;
+    border-radius: 15px;
+    padding: 23px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.overlay:hover {
+    background-color: hsla(178, 100%, 50%, 0.7);
+    cursor: pointer;
+}
+.nft-image {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.nft-image:hover {
+    opacity: 0.3;
+}
+
+.overlay svg {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    isolation: isolate;
+}
+
+h3, .white {
+    color: hsl(0, 0%, 100%);
+}
+h3:hover, .white:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+h3 {
+    font-weight: 600;
+}
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 300;
+}
+.etherium {
+    display: flex;
+    gap: 10px;
+}
+.time {
+    display: inline-block;
+    margin-left: auto;
+}
+.cyan {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+hr {
+    border-style: none;
+    border-top: 2px solid hsl(215, 32%, 27%);
+}
+.avatar {
+    width: 35px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
