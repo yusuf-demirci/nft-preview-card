@@ -12,3 +12,8 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/screenshot.png)
+
+### Links
+
+
+- Live Site URL: [https://yusuf-demirci.github.io/nft-preview-card/](https://your-live-site-url.com)
