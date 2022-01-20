@@ -11,4 +11,4 @@ Users should be able to:
 
 ### Screenshot
 
-(.images/screenshot.png)
+![Screenshot](./images/screenshot.jpg)
