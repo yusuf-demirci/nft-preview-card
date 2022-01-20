@@ -15,5 +15,11 @@ Users should be able to:
 
 ### Links
 
-
 - Live Site URL: [https://yusuf-demirci.github.io/nft-preview-card/](https://yusuf-demirci.github.io/nft-preview-card/)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
