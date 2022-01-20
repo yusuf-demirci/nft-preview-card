@@ -27,6 +27,7 @@ body {
 .overlay:hover {
     background-color: hsla(178, 100%, 50%, 0.7);
     cursor: pointer;
+    border-radius: 10px;
 }
 .nft-image {
     position: relative;
